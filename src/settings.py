@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 # coding: utf-8
-=======
->>>>>>> 2ed3af4a085fe848444ef5e04dac5439c54ba3e9
 """
 Django settings for src project.
 
@@ -41,11 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'bootstrapform',    #django-bootstrap-form
     'cms'
-=======
->>>>>>> 2ed3af4a085fe848444ef5e04dac5439c54ba3e9
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -113,15 +107,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-<<<<<<< HEAD
 LANGUAGE_CODE = 'ja'
 
 TIME_ZONE = 'Asia/Tokyo'
-=======
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
->>>>>>> 2ed3af4a085fe848444ef5e04dac5439c54ba3e9
 
 USE_I18N = True
 
@@ -134,11 +122,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
-<<<<<<< HEAD
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
     
-=======
->>>>>>> 2ed3af4a085fe848444ef5e04dac5439c54ba3e9
